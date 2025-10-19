@@ -13,5 +13,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/',userRoute)
 
 app.listen(3000,()=>{
-    console.log("server listening");
+    console.log("server listening at http://localhost:3000/signup");
 })
